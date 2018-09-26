@@ -6,8 +6,9 @@ set -e
 ########################################################################
 
 sudo apt install gvfs-bin -y
-wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb --no-check-certificate
 sudo dpkg -i gitkraken-amd64.deb
-sudo rm gitkraken-amd64.deb	
+sudo rm gitkraken-amd64.deb
 
-echo "############          GitKraken Installed            ############" 
+echo "############          GitKraken Installed            ############"
+

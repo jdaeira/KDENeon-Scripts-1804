@@ -5,8 +5,10 @@ set -e
 # Email     : jdaeira@gmail.com
 ########################################################################
 
-sudo add-apt-repository ppa:agornostal/ulauncher -y
-sudo apt update
-sudo apt install ulauncher
 
-echo "####################   Ulauncher Installed   #####################"
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt update
+sudo apt install libreoffice -y
+sudo apt install libreoffice-style* -y
+
+echo "########### Remove and Update LibreOffice #############"
