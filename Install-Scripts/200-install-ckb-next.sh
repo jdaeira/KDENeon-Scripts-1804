@@ -9,5 +9,6 @@ sudo apt-get install build-essential cmake libudev-dev qt5-default zlib1g-dev li
 git clone https://github.com/ckb-next/ckb-next.git
 cd ckb-next
 ./quickinstall
+sudo rm -r ckb-next
 
 echo "############     Corsair Driver Installed     ############" 
