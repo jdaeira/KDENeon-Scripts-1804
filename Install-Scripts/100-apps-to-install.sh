@@ -12,6 +12,7 @@ sudo apt install nfs-common -y
 sudo apt install net-tools -y
 sudo apt install tilix -y
 sudo apt install neofetch -y
+sudo apt install remmina -y
 
 echo "############ Common Apps Installed #############"
 
