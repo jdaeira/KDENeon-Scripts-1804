@@ -1,0 +1,2 @@
+ 
+sudo cp /home/[yourlocation]/20-nvidia.conf /etc/X11/xorg.conf.d/20-nvidia.conf
