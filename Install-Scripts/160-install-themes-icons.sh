@@ -28,3 +28,6 @@ echo "########## Sardi Icons Installed ###########"
 
 sudo apt install papirus-icon-theme -y
 echo "########## Papirus Icons Installed ##########"
+
+sudo apt install materia-gtk-theme -y
+echo "########## Materia Theme Installed ##########"
