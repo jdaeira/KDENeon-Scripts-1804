@@ -1,0 +1,41 @@
+Material Theme for Visual Studio
+ 
+For Shutter Screenshot
+shutter
+perl-goo-canvas
+
+Logout Screen
+Settings->Desktop Behavior->Screen Locking
+
+Num Lock
+System Settings > Input Devices > Keyboard > Hardware > NumLock on KDE Startup
+
+Remove Top Left Corner
+Right Click Desktop->Configure Desktop->Tweaks
+Uncheck->Show the desktop toolbox
+
+Fix Fonts in LibreOffice
+To disable this and get correct smoothing at all sizes do this: Create a file called .fonts.conf in the ~/.config/fontconfig directory, paste this code in it:
+<match target="font" >
+    <edit name="embeddedbitmap" mode="assign">
+        <bool>false</bool>
+    </edit>
+</match>
+
+Python IDLE
+sudo pacman -S tk
+
+Possible fix for updating apps
+sudo apt install kalarm
+akonadictl start
+sudo service apparmor teardown
+sudo service apparmor stop
+sudo apt-get purge apparmor
+
+Also re-install my-sql
+re-start PC
+
+Ignorepkg in /etc/pacman.conf
+
+Remove Blue Line Inside Dolhin and Kate
+For your second issue that blue border is set by System Settings -> Colors -> Breeze Dark -> "Focus Decoration". To change the background color inside that border go to System Settings -> Colors -> Breeze Dark -> "View Background".

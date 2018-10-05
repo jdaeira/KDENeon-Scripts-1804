@@ -14,6 +14,7 @@ sudo apt install tilix -y
 sudo apt install neofetch -y
 sudo apt install remmina -y
 sudo apt install simple-scan -y
+sudo apt install variety -y
 
 echo "############ Common Apps Installed #############"
 
