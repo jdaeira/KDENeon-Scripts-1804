@@ -13,6 +13,7 @@ sudo apt install net-tools -y
 sudo apt install tilix -y
 sudo apt install neofetch -y
 sudo apt install remmina -y
+sudo apt install simple-scan -y
 
 echo "############ Common Apps Installed #############"
 

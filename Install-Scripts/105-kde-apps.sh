@@ -15,6 +15,7 @@ sudo apt install kaccounts-integration -y
 sudo apt install kaccounts-providers -y
 sudo apt install kcolorchooser -y
 sudo apt install krita -y
+sudo apt install kcalc -y
 sudo apt install muon -y
 
 
