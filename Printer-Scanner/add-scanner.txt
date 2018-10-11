@@ -1,0 +1,9 @@
+Add brsanenetdevice4.cfg to /opt/brother/scanner/brscan4
+
+
+Create the file: sudo touch 40-libsane.rules /lib/udev/rules.d
+
+add these two lines:
+
+# Brother scanners
+ATTRS{idVendor}=="04f9", ENV{libsane_matched}="yes" 
