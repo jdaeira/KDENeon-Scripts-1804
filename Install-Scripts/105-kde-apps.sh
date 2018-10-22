@@ -17,6 +17,8 @@ sudo apt install kcolorchooser -y
 sudo apt install krita -y
 sudo apt install kcalc -y
 sudo apt install muon -y
+sudo apt install kfind -y
+sudo apt install ttf-mscorefonts-installer -y
 
 
 echo "############ Common Apps Installed #############" 
