@@ -1,0 +1,15 @@
+Install Ubuntu Server
+
+sudo apt install xauth
+sudo apt install xorg
+
+Install Display Manager
+sudo apt install sddm or other Display Manager
+
+KDE Desktop PPA
+sudo add-apt-repository ppa:kubuntu-ppa/staging-plasma
+sudo apt-get update
+
+KDE Applications PPA
+sudo add-apt-repository ppa:kubuntu-ppa/staging-kdeapplications
+sudo apt-get update
