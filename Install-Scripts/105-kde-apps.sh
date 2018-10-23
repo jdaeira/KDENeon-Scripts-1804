@@ -19,6 +19,7 @@ sudo apt install kcalc -y
 sudo apt install muon -y
 sudo apt install kfind -y
 sudo apt install ttf-mscorefonts-installer -y
+sudo apt install kubuntu-driver-manager -y
 
 
 echo "############ Common Apps Installed #############" 
