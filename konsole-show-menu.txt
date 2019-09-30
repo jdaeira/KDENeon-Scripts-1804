@@ -1,0 +1,3 @@
+Konsole Show Menu Bar
+
+Ctrl+Shift+M
