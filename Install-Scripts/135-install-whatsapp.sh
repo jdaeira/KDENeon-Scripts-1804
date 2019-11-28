@@ -5,8 +5,8 @@ set -e
 # Email     : jdaeira@gmail.com
 ########################################################################
 
-sudo add-apt-repository ppa:linuxuprising/shutter
-sudo apt update
-sudo apt install shutter
+sudo apt install npm
+sudo npm install nativefier -g
+nativefier --name "WhatsApp Web" https://web.whatsapp.com
 
-echo "############### Shutter Installed ##################"
+echo "########### WhatsApp Created #############"
