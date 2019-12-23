@@ -1,0 +1,6 @@
+ 
+sudo systemctl enable NetworkManager.service 
+
+sudo nmcli dev set "ethernet apater name" managed yes
+
+Also try setting auto negotiation to on in Network Connection
