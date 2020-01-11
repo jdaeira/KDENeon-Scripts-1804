@@ -1,1 +1,1 @@
-# KDE-Neon-1804
+# KDE-Neon / Kubuntu Setup
