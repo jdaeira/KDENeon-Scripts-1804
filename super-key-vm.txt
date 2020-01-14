@@ -1,0 +1,1 @@
+Right-click the VirtualBox title bar -> more Actions -> Special Window settings -> Appearance and Fixes -> Ignore Global shortcuts -> Force yes 
