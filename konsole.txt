@@ -1,1 +1,1 @@
-shade of red for konsole is: #cd000a
+shade of red for konsole is: #cd000a, #ca041c
