@@ -1,0 +1,11 @@
+As root, edit the /etc/zsh/zprofile file and add the following to the bottom of it:
+
+  1)  emulate sh -c 'source /etc/profile'
+
+This will likely fix a number of other PATHing issues that KDE may have been missing since it wasn’t reading your shell profile.
+
+If all you want to do is fix the SNAP integration with KDE, you can just add the following line to the bottom:
+
+  1)  emulate sh -c 'source /etc/profile.d/apps-bin-path.sh'
+
+Once that is done, restart your KDE instance (or reboot to be safe) and you should now see your SNAPS listed in the launcher.

@@ -1,0 +1,13 @@
+ 
+Install All Oxygen themes, sounds, icons
+plasma-theme-oxygen
+oxygen-sounds
+oxygen-icon-theme
+oxygen-cursor-theme
+
+Install Pavucontrol
+pavucontrol
+pavucontrol-qt
+
+
+Adjust Application Sound in Pavucontrol
