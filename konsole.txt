@@ -1,1 +1,3 @@
-shade of red for konsole is: #cd000a, #ca041c
+shade of red for konsole is: #cc0000
+
+color for Command Prompt ZSH: #d81b5f
